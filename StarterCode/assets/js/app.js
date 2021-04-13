@@ -166,7 +166,7 @@ function visualize(data){
         })
 
         xMax = d3.max(data, function(d){
-            return parseFloat(d,[curX]) * 1.10;
+            return parseFloat(d[curX]) * 1.10;
         })
     }
     function yMinMax(){
